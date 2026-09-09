@@ -1,10 +1,10 @@
 <h1 align="center">Medical Referring Segmentation: A Survey&nbsp;&#129517;</h1>
 
-<p align="center">Ali Alsalama</p>
+<p align="center"><a href="https://github.com/alialsalamaa">Ali Alsalama</a></p>
 
 <p align="center">&#128293;A curated survey of language-, report-, reasoning-, and prompt-guided segmentation in medical imaging.&#128293;</p>
 
-<p align="center">&#128227; Papers, datasets, and corrections are welcome; see the <a href="CONTRIBUTING.md">contribution guide</a>. &#129309;</p>
+<p align="center">&#128227; Papers, datasets, and corrections are welcome; open an <a href="https://github.com/alialsalamaa/Awesome-Medical-Referring-Segmentation/issues/new">issue</a> or submit a <a href="https://github.com/alialsalamaa/Awesome-Medical-Referring-Segmentation/pulls">pull request</a> using the <a href="CONTRIBUTING.md">contribution guide</a>. &#129309;</p>
 
 <p align="center"><strong>Survey coverage through 1 September 2026</strong></p>
 
@@ -24,7 +24,7 @@
   - [3D volumetric imaging](#papers-3d-volumetric-imaging)
   - [Video and sequences](#papers-video-and-sequences)
   - [Pathology and microscopy](#papers-pathology-and-microscopy)
-- [Maintaining the catalog](#maintaining-the-catalog)
+- [Contributing](#contributing)
 - [Website](#website)
 - [Citation](#citation)
 
@@ -816,11 +816,15 @@ Paper inclusion is independent of dataset access: in-scope studies using private
 </details>
 <!-- END GENERATED PAPER CATALOG -->
 
-## Maintaining the catalog
+## Contributing
 
 The canonical records live in [`catalog/papers.json`](catalog/papers.json) and [`catalog/datasets.json`](catalog/datasets.json). The webpage data and every taxonomy table above are generated from those same files, so they cannot silently drift apart.
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the field templates and the one-command rebuild and validation workflow.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the required formats and the one-command rebuild and validation workflow. All additions and corrections are reviewed before merging.
+
+## Website
+
+- **GitHub Pages:** https://alialsalamaa.github.io/Awesome-Medical-Referring-Segmentation/
 
 ## Citation
 

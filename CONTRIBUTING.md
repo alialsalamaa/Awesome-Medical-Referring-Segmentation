@@ -1,4 +1,8 @@
-# Maintaining the catalog
+# Contributing to the catalog
+
+Thank you for helping keep the Medical Referring Segmentation survey accurate and current. Submit additions and corrections through a pull request. The maintainer reviews every change before it is merged.
+
+Please keep each pull request focused on one logical addition or correction and use authoritative public sources. Do not include private patient information, unpublished institutional data, local file paths, or copies of papers and datasets.
 
 The catalog has one source of truth:
 
@@ -9,7 +13,7 @@ The catalog has one source of truth:
 
 ## Add or edit an entry
 
-Edit the relevant JSON array, keeping one object per record. Copy a nearby entry as a template so every field remains present.
+Edit the relevant JSON array, keeping one object per record. Copy a nearby entry as a template so every field remains present. Do not edit generated files by hand.
 
 Paper fields:
 
@@ -59,7 +63,7 @@ Use an empty string for an unavailable optional paper identifier or PDF URL, and
 
 Use the canonical venue label without a year; the paper year belongs in the `year` field. Approved aliases are centralized in `scripts/build_catalog.py` (for example, full MICCAI names become `MICCAI`, `arXiv preprint` becomes `arXiv`, and `CVPRW` becomes `CVPR Workshops`). The validator reports the expected label if a manually added paper uses a known variant.
 
-## Rebuild both mirrors
+## Update both mirrors
 
 From the repository root, run:
 
@@ -76,3 +80,16 @@ uv run python scripts/build_catalog.py --check
 ```
 
 The committed files in `catalog/` are self-contained; rebuilding the project does not require any external spreadsheet or private source file.
+
+## Pull request checklist
+
+Before opening a pull request, confirm that:
+
+- The paper or dataset is in scope for linguistic-prompt medical segmentation.
+- Names, authors, identifiers, venues, and links match authoritative sources.
+- Paper repositories are official or author-maintained.
+- Dataset links point to the official source or a clearly disclosed archival source.
+- Optional missing values use an empty string or array rather than invented information.
+- `uv run python scripts/build_catalog.py` completed successfully.
+- `uv run python scripts/build_catalog.py --check` reports that both mirrors are synchronized.
+- The pull request includes the changed canonical JSON, `README.md`, and the generated file under `data/`.
