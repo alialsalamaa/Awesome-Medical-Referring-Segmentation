@@ -2322,7 +2322,7 @@ window.DATASETS = [
     "modalities": [
       "Endoscopy"
     ],
-    "version": "CVC-300 / EndoScene release",
+    "version": "PraNet benchmark test release (redistribution)",
     "content": "60 2D colonoscopy frames",
     "origin": "Human colorectal polyps",
     "anatomicalOrigins": [
@@ -2333,7 +2333,7 @@ window.DATASETS = [
     ],
     "annotation": "Pixel-level polyp masks",
     "access": "Public",
-    "url": "https://polyp.grand-challenge.org/Databases/",
+    "url": "https://github.com/DengPingFan/PraNet",
     "aliases": [
       "Five-polyp benchmark"
     ]
@@ -2379,7 +2379,7 @@ window.DATASETS = [
     "modalities": [
       "Endoscopy"
     ],
-    "version": "CVC-ColonDB release",
+    "version": "PraNet benchmark test release (redistribution)",
     "content": "380 2D colonoscopy frames",
     "origin": "Human colorectal polyps",
     "anatomicalOrigins": [
@@ -2390,7 +2390,7 @@ window.DATASETS = [
     ],
     "annotation": "Pixel-level polyp masks",
     "access": "Public",
-    "url": "https://polyp.grand-challenge.org/Databases/",
+    "url": "https://github.com/DengPingFan/PraNet",
     "aliases": [
       "Composite polyp set (CVC-ClinicDB + CVC-ColonDB + ETIS-LaribPolypDB + Kvasir-SEG + PolypGen), random 8:1:1 split",
       "CVC-ClinicDB + CVC-ColonDB + ETIS-LaribPolypDB + Kvasir-SEG + PolypGen composite",
@@ -2419,8 +2419,8 @@ window.DATASETS = [
       "Human"
     ],
     "annotation": "Pixel-level polyp masks",
-    "access": "Public",
-    "url": "https://polyp.grand-challenge.org/Databases/",
+    "access": "Registration",
+    "url": "https://pages.cvc.uab.es/CVC-Colon/index.php/databases/cvc-endoscenestill/",
     "aliases": [
       "EndoScene"
     ]
@@ -4842,7 +4842,7 @@ window.DATASETS = [
     ],
     "annotation": "Left/right lung masks and image-level tuberculosis labels",
     "access": "Public",
-    "url": "https://lhncbc.nlm.nih.gov/LHC-downloads/dataset.html",
+    "url": "https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Montgomery-County-CXR-Set/MontgomerySet/index.html",
     "aliases": [
       "Montgomery County + Shenzhen",
       "Montgomery County + Shenzhen, lung",
@@ -6765,7 +6765,7 @@ window.DATASETS = [
     ],
     "annotation": "Image-level tuberculosis labels; lung masks are supplied by a separate derivative release",
     "access": "Public",
-    "url": "https://lhncbc.nlm.nih.gov/LHC-downloads/dataset.html",
+    "url": "https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/index.html",
     "aliases": [
       "Shenzhen Chest X-ray",
       "Shenzhen, tuberculous lung"
