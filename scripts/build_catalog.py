@@ -216,9 +216,11 @@ def render_dataset_sections(datasets: list[dict]) -> str:
         for dataset in records:
             dataset_cell = markdown_link(dataset["name"], dataset["url"])
             dataset_cell += f"<br><sub>{markdown_text(dataset['version'])}</sub>"
-            data_cell = markdown_text("; ".join(dataset["modalities"]))
+            data_cell = f"<sub>{markdown_text('; '.join(dataset['modalities']))}</sub>"
             origin_cell = markdown_text("; ".join(dataset["anatomicalOrigins"]))
             origin_cell += f"<br><sub>{markdown_text(dataset['origin'])}</sub>"
+            annotation_cell = f"<sub>{markdown_text(dataset['annotation'])}</sub>"
+            access_cell = f"<sub>{markdown_text(dataset['access'])}</sub>"
             lines.append(
                 "| "
                 + " | ".join(
@@ -226,8 +228,8 @@ def render_dataset_sections(datasets: list[dict]) -> str:
                         dataset_cell,
                         data_cell,
                         origin_cell,
-                        markdown_text(dataset["annotation"]),
-                        markdown_text(dataset["access"]),
+                        annotation_cell,
+                        access_cell,
                     )
                 )
                 + " |"

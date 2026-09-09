@@ -12,7 +12,7 @@ window.PAPERS = [
       "Bi, Lei",
       "Kim, Jinman"
     ],
-    "year": 2027,
+    "year": 2026,
     "venue": "Expert Systems with Applications",
     "categories": [
       "2D"
@@ -30,7 +30,7 @@ window.PAPERS = [
       "Sinyoung Ra",
       "Hyunjin Park"
     ],
-    "year": 2027,
+    "year": 2026,
     "venue": "ICPR",
     "categories": [
       "2D"
