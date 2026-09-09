@@ -208,7 +208,7 @@ def render_dataset_sections(datasets: list[dict]) -> str:
         lines = [
             f'<a id="{anchor}"></a>',
             "<details>",
-            f"<summary><strong>{title}</strong> ({len(records)} datasets)</summary>",
+            f"<summary><strong>{title}</strong></summary>",
             "",
             "| Dataset | Data | Origin | Annotation | Access |",
             "|:--|:--|:--|:--|:--|",
@@ -246,11 +246,10 @@ def render_paper_sections(papers: list[dict]) -> str:
             (paper for paper in papers if paper["year"] == year),
             key=lambda paper: paper["title"].casefold(),
         )
-        paper_label = "paper" if len(records) == 1 else "papers"
         lines = [
             f'<a id="papers-{year}"></a>',
             "<details>",
-            f"<summary><strong>{year}</strong> ({len(records)} {paper_label})</summary>",
+            f"<summary><strong>{year}</strong></summary>",
             "",
             "| Paper | Setting | Venue | Links |",
             "|:--|:--|:--|:--|",

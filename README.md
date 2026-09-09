@@ -40,7 +40,7 @@ Datasets are grouped once by their native released source type. Volumetric scans
 <!-- BEGIN GENERATED DATASET CATALOG -->
 <a id="2d-medical-imaging"></a>
 <details>
-<summary><strong>2D medical imaging</strong> (112 datasets)</summary>
+<summary><strong>2D medical imaging</strong></summary>
 
 | Dataset | Data | Origin | Annotation | Access |
 |:--|:--|:--|:--|:--|
@@ -161,7 +161,7 @@ Datasets are grouped once by their native released source type. Volumetric scans
 
 <a id="3d-volumetric-imaging"></a>
 <details>
-<summary><strong>3D volumetric imaging</strong> (111 datasets)</summary>
+<summary><strong>3D volumetric imaging</strong></summary>
 
 | Dataset | Data | Origin | Annotation | Access |
 |:--|:--|:--|:--|:--|
@@ -281,7 +281,7 @@ Datasets are grouped once by their native released source type. Volumetric scans
 
 <a id="video-and-sequences"></a>
 <details>
-<summary><strong>Video and sequences</strong> (17 datasets)</summary>
+<summary><strong>Video and sequences</strong></summary>
 
 | Dataset | Data | Origin | Annotation | Access |
 |:--|:--|:--|:--|:--|
@@ -307,7 +307,7 @@ Datasets are grouped once by their native released source type. Volumetric scans
 
 <a id="pathology-and-microscopy"></a>
 <details>
-<summary><strong>Pathology and microscopy</strong> (27 datasets)</summary>
+<summary><strong>Pathology and microscopy</strong></summary>
 
 | Dataset | Data | Origin | Annotation | Access |
 |:--|:--|:--|:--|:--|
@@ -343,7 +343,7 @@ Datasets are grouped once by their native released source type. Volumetric scans
 
 <a id="mixed-source-types"></a>
 <details>
-<summary><strong>Mixed source types</strong> (9 datasets)</summary>
+<summary><strong>Mixed source types</strong></summary>
 
 | Dataset | Data | Origin | Annotation | Access |
 |:--|:--|:--|:--|:--|
@@ -368,7 +368,7 @@ Paper inclusion is independent of dataset access: in-scope studies using private
 <!-- BEGIN GENERATED PAPER CATALOG -->
 <a id="papers-2026"></a>
 <details>
-<summary><strong>2026</strong> (121 papers)</summary>
+<summary><strong>2026</strong></summary>
 
 | Paper | Setting | Venue | Links |
 |:--|:--|:--|:--|
@@ -498,7 +498,7 @@ Paper inclusion is independent of dataset access: in-scope studies using private
 
 <a id="papers-2025"></a>
 <details>
-<summary><strong>2025</strong> (81 papers)</summary>
+<summary><strong>2025</strong></summary>
 
 | Paper | Setting | Venue | Links |
 |:--|:--|:--|:--|
@@ -588,7 +588,7 @@ Paper inclusion is independent of dataset access: in-scope studies using private
 
 <a id="papers-2024"></a>
 <details>
-<summary><strong>2024</strong> (43 papers)</summary>
+<summary><strong>2024</strong></summary>
 
 | Paper | Setting | Venue | Links |
 |:--|:--|:--|:--|
@@ -640,7 +640,7 @@ Paper inclusion is independent of dataset access: in-scope studies using private
 
 <a id="papers-2023"></a>
 <details>
-<summary><strong>2023</strong> (10 papers)</summary>
+<summary><strong>2023</strong></summary>
 
 | Paper | Setting | Venue | Links |
 |:--|:--|:--|:--|
@@ -659,7 +659,7 @@ Paper inclusion is independent of dataset access: in-scope studies using private
 
 <a id="papers-2022"></a>
 <details>
-<summary><strong>2022</strong> (1 paper)</summary>
+<summary><strong>2022</strong></summary>
 
 | Paper | Setting | Venue | Links |
 |:--|:--|:--|:--|
