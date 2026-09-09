@@ -984,7 +984,8 @@ window.DATASETS = [
     "url": "https://github.com/PathologyDataScience/BCSS",
     "aliases": [
       "BCSS",
-      "BCSS (cross-institution split)"
+      "BCSS (cross-institution split)",
+      "TIGER/BCSS"
     ]
   },
   {
@@ -2955,7 +2956,6 @@ window.DATASETS = [
     "url": "https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/",
     "aliases": [
       "EndoVis 2017 robotic instrument segmentation",
-      "EndoVis-RS17",
       "EndoVis2017",
       "EndoVis2017 $\\rightarrow$ EndoVis2018, shared-class cross-dataset protocol",
       "EndoVis2017, binary tool segmentation",
@@ -2991,7 +2991,6 @@ window.DATASETS = [
     "url": "https://endovissub2018-roboticscenesegmentation.grand-challenge.org/",
     "aliases": [
       "EndoVis 2018 robotic instrument segmentation",
-      "EndoVis-RS18",
       "EndoVis2018",
       "EndoVis2018 $\\rightarrow$ EndoVis2017, shared-class cross-dataset protocol",
       "EndoVis2018, binary tool segmentation",
@@ -7866,6 +7865,358 @@ window.DATASETS = [
     "url": "https://muregpro.github.io/data.html",
     "aliases": [
       "RegPro"
+    ]
+  },
+  {
+    "name": "SA-Med2D-20M",
+    "categories": [
+      "2D",
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "CT",
+      "MRI",
+      "PET",
+      "X-ray",
+      "Ultrasound",
+      "Endoscopy",
+      "Fundus photography",
+      "Dermoscopy",
+      "Microscopy",
+      "Digital pathology"
+    ],
+    "version": "SA-Med2D-20M corpus; current public SA-Med2D-16M subset",
+    "content": "4.6 million 2D images and 19.7 million masks in the full corpus, spanning 10 modalities and 31 major organs; the public release provides a 16M-mask subset",
+    "origin": "Human anatomy and lesions spanning 31 major organs and multiple body regions",
+    "anatomicalOrigins": [
+      "Whole body"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Pixel-level semantic and instance segmentation masks; released filenames encode class and instance identifiers",
+    "access": "Public",
+    "url": "https://huggingface.co/datasets/OpenGVLab/SA-Med2D-20M",
+    "aliases": [
+      "SA-Med2D",
+      "SA-Med2D-16M"
+    ]
+  },
+  {
+    "name": "IMed-361M",
+    "categories": [
+      "2D"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "CT",
+      "CT angiography",
+      "MRI",
+      "Endoscopy",
+      "Ultrasound",
+      "X-ray",
+      "Fundus photography",
+      "Dermoscopy"
+    ],
+    "version": "IMed-361M / IMIS-Bench CVPR 2025 release",
+    "content": "6.4 million standardized 2D images with 87.6 million source masks and 273.4 million automatically generated interactive masks, covering 204 segmentation targets",
+    "origin": "Human anatomy and lesions across head and neck, thorax, skeleton, abdomen, and pelvis",
+    "anatomicalOrigins": [
+      "Whole body"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Source ground-truth masks plus quality-controlled automatically generated dense interactive segmentation masks",
+    "access": "Registration",
+    "url": "https://huggingface.co/datasets/General-Medical-AI/IMed-361M",
+    "aliases": [
+      "IMIS-Bench",
+      "IMed"
+    ]
+  },
+  {
+    "name": "EndoVis-RS17",
+    "categories": [
+      "Video / sequences"
+    ],
+    "formatTypes": [
+      "2D",
+      "Video"
+    ],
+    "modalities": [
+      "Endoscopy"
+    ],
+    "version": "EndoVis-RS17 release derived from EndoVis 2017",
+    "content": "Temporally organized surgical frames paired with 5,133 instrument-text expressions of 7-9 words",
+    "origin": "Human pelvic surgical field during robot-assisted surgery",
+    "anatomicalOrigins": [
+      "Pelvis"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Reannotated per-instrument instance masks paired with surgeon-authored action and location expressions",
+    "access": "Request",
+    "url": "https://github.com/whq-xxh/RSVIS",
+    "aliases": []
+  },
+  {
+    "name": "EndoVis-RS18",
+    "categories": [
+      "Video / sequences"
+    ],
+    "formatTypes": [
+      "2D",
+      "Video"
+    ],
+    "modalities": [
+      "Endoscopy"
+    ],
+    "version": "EndoVis-RS18 release derived from EndoVis 2018",
+    "content": "Temporally organized surgical frames paired with 4,711 instrument-text expressions of 3-6 words",
+    "origin": "Human pelvic surgical field during robot-assisted surgery",
+    "anatomicalOrigins": [
+      "Pelvis"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Reannotated per-instrument instance masks paired with surgeon-authored action and location expressions",
+    "access": "Request",
+    "url": "https://github.com/whq-xxh/RSVIS",
+    "aliases": []
+  },
+  {
+    "name": "LIVECell",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "Phase-contrast microscopy"
+    ],
+    "version": "LIVECell 2021 release",
+    "content": "5,239 phase-contrast images containing 1,686,352 individually segmented cells from eight cell types",
+    "origin": "Eight in-vitro human and mouse cell lines",
+    "anatomicalOrigins": [
+      "Multiple tissues"
+    ],
+    "subjectTypes": [
+      "Human",
+      "Mouse"
+    ],
+    "annotation": "Expert-validated per-cell instance segmentation masks in COCO format",
+    "access": "Public",
+    "url": "https://sartorius-research.github.io/LIVECell/",
+    "aliases": []
+  },
+  {
+    "name": "TissueNet",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "CODEX",
+      "Cyclic immunofluorescence",
+      "Imaging mass cytometry",
+      "Multiplexed ion beam imaging",
+      "Multiplex immunofluorescence",
+      "Vectra multiplex imaging"
+    ],
+    "version": "TissueNet version 1.1, released 2022-04",
+    "content": "Two-dimensional tissue images with approximately 1.3 million whole-cell and 1.2 million nuclear annotations across nine organs",
+    "origin": "Healthy and diseased human, mouse, and macaque tissue from nine organs",
+    "anatomicalOrigins": [
+      "Multiple organs"
+    ],
+    "subjectTypes": [
+      "Human",
+      "Mouse",
+      "Macaque"
+    ],
+    "annotation": "Paired nuclear and whole-cell instance segmentation masks",
+    "access": "Registration",
+    "url": "https://deepcell.readthedocs.io/en/master/data-gallery/tissuenet.html",
+    "aliases": []
+  },
+  {
+    "name": "PlantSeg lateral-root-primordia dataset",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "3D"
+    ],
+    "modalities": [
+      "Light-sheet fluorescence microscopy"
+    ],
+    "version": "PlantSeg lateral-root-primordia release (2020)",
+    "content": "Three 3D+t recordings with 27 densely annotated time points",
+    "origin": "Arabidopsis thaliana lateral-root primordia",
+    "anatomicalOrigins": [
+      "Plant root"
+    ],
+    "subjectTypes": [
+      "Plant"
+    ],
+    "annotation": "Hand-curated three-dimensional cell instance labels",
+    "access": "Public",
+    "url": "https://osf.io/uzq3w/",
+    "aliases": [
+      "PlantSeg (Root)"
+    ]
+  },
+  {
+    "name": "3D ground truth annotations of cleared whole mouse brain nuclei imaged with a mesoSPIM system",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "3D"
+    ],
+    "modalities": [
+      "Light-sheet fluorescence microscopy"
+    ],
+    "version": "Version 1, published 2024-04-30",
+    "content": "Six expert-annotated cortical 3D volumes: five from somatosensory cortex and one from visual cortex",
+    "origin": "CLARITY-cleared TPH2-tdTomato whole mouse brain",
+    "anatomicalOrigins": [
+      "Brain"
+    ],
+    "subjectTypes": [
+      "Mouse"
+    ],
+    "annotation": "Expert three-dimensional nuclei instance labels",
+    "access": "Public",
+    "url": "https://zenodo.org/records/11095111",
+    "aliases": [
+      "Mouse Brain",
+      "mesoSPIM Mouse Brain"
+    ]
+  },
+  {
+    "name": "Damond_2019_Pancreas",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "Imaging mass cytometry"
+    ],
+    "version": "Damond et al. 2019 release",
+    "content": "Thirty-eight-channel images with a 100-image default subset and masks and single-cell data available for 845 images from 12 donors",
+    "origin": "Human pancreatic tissue from donors with type 1 diabetes and non-diabetic controls",
+    "anatomicalOrigins": [
+      "Pancreas"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Cell segmentation masks, cell-type labels, and per-cell metadata",
+    "access": "Public",
+    "url": "https://bodenmillergroup.github.io/imcdatasets/reference/Damond_2019_Pancreas.html",
+    "aliases": [
+      "Damond"
+    ]
+  },
+  {
+    "name": "CellMap 2024 Segmentation Challenge",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "3D"
+    ],
+    "modalities": [
+      "Enhanced focused ion beam-scanning electron microscopy"
+    ],
+    "version": "CellMap Segmentation Challenge 2024 release",
+    "content": "289 annotated 3D training volumes drawn from 22 eFIB-SEM datasets and spanning more than 40 cellular organelle classes",
+    "origin": "Diverse cell lines and animal and human tissues across 22 datasets",
+    "anatomicalOrigins": [
+      "Multiple tissues"
+    ],
+    "subjectTypes": [
+      "Multiple species"
+    ],
+    "annotation": "Voxel-level three-dimensional organelle segmentation labels",
+    "access": "Public",
+    "url": "https://janelia.figshare.com/collections/CellMap_2024_Segmentation_Challenge/7456966",
+    "aliases": [
+      "CellMap",
+      "CellMap Segmentation Challenge"
+    ]
+  },
+  {
+    "name": "ReferralSeg",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "Digital pathology"
+    ],
+    "version": "COMPAYL 2026 benchmark; public release announced",
+    "content": "2,843 histopathology images yielding 5,702 image-mask-instruction-quality quadruplets across breast, colon, lung, and prostate cancers",
+    "origin": "Human breast, colorectal, lung, and prostate cancer tissue",
+    "anatomicalOrigins": [
+      "Breast",
+      "Colon",
+      "Lung",
+      "Prostate"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Pixel-level masks paired with clinician-style instructions spanning histological, spatial, hierarchical, and disambiguating reasoning, plus an automated visual-grounding Dice quality score",
+    "access": "Not yet released",
+    "url": "https://openreview.net/forum?id=I76sDt20bx",
+    "aliases": [
+      "ReferralSeg benchmark"
+    ]
+  },
+  {
+    "name": "Replication Data for: Automated Gleason grading of prostate cancer tissue microarrays via deep learning",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "formatTypes": [
+      "2D"
+    ],
+    "modalities": [
+      "Digital pathology"
+    ],
+    "version": "Harvard Dataverse version 1.0, published 2018-08-07",
+    "content": "H&E-stained images from five prostate cancer tissue microarrays, covering a 641-patient discovery cohort and a 245-patient independent test cohort",
+    "origin": "Human prostate cancer tissue microarrays",
+    "anatomicalOrigins": [
+      "Prostate"
+    ],
+    "subjectTypes": [
+      "Human"
+    ],
+    "annotation": "Pixel labels for benign tissue, Gleason patterns 3, 4, and 5, and unlabeled tissue; independent masks from two pathologists are supplied for the test TMA",
+    "access": "Public",
+    "url": "https://doi.org/10.7910/DVN/OCYCMP",
+    "aliases": [
+      "Arvaniti et al. prostate TMA dataset",
+      "Gleason TMA dataset",
+      "Prostate TMA (Arvaniti et al.)"
     ]
   }
 ];

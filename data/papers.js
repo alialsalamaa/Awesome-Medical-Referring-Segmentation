@@ -5813,5 +5813,174 @@ window.PAPERS = [
     "codeUrls": [
       "https://github.com/microsoft/hi-ml"
     ]
+  },
+  {
+    "id": "paper-1e51f3223dea",
+    "title": "MedReasoner: Reinforcement Learning Drives Reasoning Grounding from Clinical Thought to Pixel-Level Precision",
+    "authors": [
+      "Zhonghao Yan",
+      "Muxi Diao",
+      "Yuxuan Yang",
+      "Ruoyan Jing",
+      "Jiayuan Xu",
+      "Kaizhou Zhang",
+      "Lele Yang",
+      "Yanxi Liu",
+      "Kongming Liang",
+      "Zhanyu Ma"
+    ],
+    "year": 2026,
+    "venue": "AAAI",
+    "categories": [
+      "2D"
+    ],
+    "identifier": "DOI: 10.1609/aaai.v40i14.38141; arXiv: 2508.08177",
+    "paperUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/38141",
+    "pdfUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/38141/42103",
+    "codeUrls": [
+      "https://github.com/PRIS-CV/MedReasoner"
+    ]
+  },
+  {
+    "id": "paper-b62195516cd2",
+    "title": "Video-Instrument Synergistic Network for Referring Video Instrument Segmentation in Robotic Surgery",
+    "authors": [
+      "Hongqiu Wang",
+      "Guang Yang",
+      "Shichen Zhang",
+      "Jing Qin",
+      "Yike Guo",
+      "Bo Xu",
+      "Yueming Jin",
+      "Lei Zhu"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Medical Imaging",
+    "categories": [
+      "Video / sequences"
+    ],
+    "identifier": "DOI: 10.1109/TMI.2024.3426953; arXiv: 2308.09475",
+    "paperUrl": "https://doi.org/10.1109/TMI.2024.3426953",
+    "pdfUrl": "https://arxiv.org/pdf/2308.09475",
+    "codeUrls": [
+      "https://github.com/whq-xxh/RSVIS"
+    ]
+  },
+  {
+    "id": "paper-a015cae12bc5",
+    "title": "Bio2Vol: Adapting 2D Biomedical Foundation Models for Volumetric Medical Image Segmentation",
+    "authors": [
+      "Jiaxin Zhuang",
+      "Linshan Wu",
+      "Xuefeng Ni",
+      "Xi Wang",
+      "Liansheng Wang",
+      "Hao Chen"
+    ],
+    "year": 2025,
+    "venue": "MICCAI",
+    "categories": [
+      "3D"
+    ],
+    "identifier": "DOI: 10.1007/978-3-032-04978-0_3",
+    "paperUrl": "https://papers.miccai.org/miccai-2025/0097-Paper1852.html",
+    "pdfUrl": "https://papers.miccai.org/miccai-2025/paper/1852_paper.pdf",
+    "codeUrls": [
+      "https://github.com/JiaxinZhuang/Bio2Vol"
+    ]
+  },
+  {
+    "id": "paper-80c169622e25",
+    "title": "A visual-language foundation model for computational pathology",
+    "authors": [
+      "Ming Y. Lu",
+      "Bowen Chen",
+      "Drew F. K. Williamson",
+      "Richard J. Chen",
+      "Ivy Liang",
+      "Tong Ding",
+      "Guillaume Jaume",
+      "Igor Odintsov",
+      "Long Phi Le",
+      "Georg Gerber",
+      "Anil V. Parwani",
+      "Andrew Zhang",
+      "Faisal Mahmood"
+    ],
+    "year": 2024,
+    "venue": "Nature Medicine",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "identifier": "DOI: 10.1038/s41591-024-02856-4; arXiv: 2307.12914",
+    "paperUrl": "https://www.nature.com/articles/s41591-024-02856-4",
+    "pdfUrl": "https://arxiv.org/pdf/2307.12914",
+    "codeUrls": [
+      "https://github.com/mahmoodlab/CONCH"
+    ]
+  },
+  {
+    "id": "paper-a5cc67264fa3",
+    "title": "GenCellAgent: Generalizable, Training-Free Cellular Image Segmentation via Large Language Model Agents",
+    "authors": [
+      "Xi Yu",
+      "Yang Yang",
+      "Qun Liu",
+      "Yonghua Du",
+      "Sean McSweeney",
+      "Yuewei Lin"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "identifier": "arXiv: 2510.13896",
+    "paperUrl": "https://arxiv.org/abs/2510.13896",
+    "pdfUrl": "https://arxiv.org/pdf/2510.13896",
+    "codeUrls": [
+      "https://github.com/yuxi120407/GenCellAgent"
+    ]
+  },
+  {
+    "id": "paper-bd1bce2f2450",
+    "title": "Rethinking Text-Promptable Surgical Instrument Segmentation with Robust Framework",
+    "authors": [
+      "Tae-Min Choi",
+      "Juyoun Park"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "categories": [
+      "2D"
+    ],
+    "identifier": "arXiv: 2411.12199",
+    "paperUrl": "https://arxiv.org/abs/2411.12199",
+    "pdfUrl": "https://arxiv.org/pdf/2411.12199",
+    "codeUrls": []
+  },
+  {
+    "id": "paper-348df69e75b1",
+    "title": "ReferralSeg: A Multi-Cancer Benchmark for Clinician-Style Language-Guided Segmentation in Histopathology",
+    "authors": [
+      "Roba Al Majzoub",
+      "Ankan Deria",
+      "Numan Saeed",
+      "Salman Khan",
+      "Klaus Maier-Hein",
+      "Shadab Khan",
+      "Fahad Shahbaz Khan"
+    ],
+    "year": 2026,
+    "venue": "MICCAI Workshop on Computational Pathology with Multimodal Data (COMPAYL)",
+    "categories": [
+      "Pathology / microscopy"
+    ],
+    "identifier": "OpenReview: I76sDt20bx",
+    "paperUrl": "https://openreview.net/forum?id=I76sDt20bx",
+    "pdfUrl": "https://openreview.net/pdf?id=I76sDt20bx",
+    "codeUrls": [
+      "https://github.com/musk007/ReferralSegModel"
+    ]
   }
 ];
