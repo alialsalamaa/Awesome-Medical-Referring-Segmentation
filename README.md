@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://github.com/alialsalamaa">Ali Alsalama</a></p>
 
-<p align="center">&#128293;A curated survey of language-, report-, reasoning-, and prompt-guided methods for medical image segmentation.&#128293;</p>
+<p align="center">&#128293;A curated survey of methods that segment medical images using referring expressions, clinical descriptions, reports, and other linguistic prompts.&#128293;</p>
 
 <p align="center">&#128227; Papers, datasets, and corrections are welcome; open an <a href="https://github.com/alialsalamaa/Awesome-Medical-Referring-Segmentation/issues/new">issue</a> or submit a <a href="https://github.com/alialsalamaa/Awesome-Medical-Referring-Segmentation/pulls">pull request</a> using the <a href="CONTRIBUTING.md">contribution guide</a>. &#129309;</p>
 
