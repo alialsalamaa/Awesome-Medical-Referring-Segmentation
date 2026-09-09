@@ -25,6 +25,7 @@ CATEGORY_SECTIONS = {
     "Video / sequences": ("video-and-sequences", "Video and sequences"),
     "Pathology / microscopy": ("pathology-and-microscopy", "Pathology and microscopy"),
 }
+MIXED_DATASET_SECTION = ("mixed-source-types", "Mixed source types")
 
 DATASET_START = "<!-- BEGIN GENERATED DATASET CATALOG -->"
 DATASET_END = "<!-- END GENERATED DATASET CATALOG -->"
@@ -193,12 +194,17 @@ def markdown_link(label: str, url: str) -> str:
 
 def render_dataset_sections(datasets: list[dict]) -> str:
     sections: list[str] = []
-    for category in CATEGORIES:
-        anchor, title = CATEGORY_SECTIONS[category]
-        records = sorted(
-            (dataset for dataset in datasets if category in dataset["categories"]),
-            key=lambda dataset: dataset["name"].casefold(),
-        )
+    group_specs = [
+        (anchor, title, [dataset for dataset in datasets if dataset["categories"] == [category]])
+        for category, (anchor, title) in CATEGORY_SECTIONS.items()
+    ]
+    mixed_anchor, mixed_title = MIXED_DATASET_SECTION
+    group_specs.append(
+        (mixed_anchor, mixed_title, [dataset for dataset in datasets if len(dataset["categories"]) > 1])
+    )
+
+    for anchor, title, group_records in group_specs:
+        records = sorted(group_records, key=lambda dataset: dataset["name"].casefold())
         lines = [
             f'<a id="{anchor}"></a>',
             "<details>",
@@ -210,6 +216,8 @@ def render_dataset_sections(datasets: list[dict]) -> str:
         for dataset in records:
             dataset_cell = markdown_link(dataset["name"], dataset["url"])
             dataset_cell += f"<br><sub>{markdown_text(dataset['version'])}</sub>"
+            if len(dataset["categories"]) > 1:
+                dataset_cell += f"<br><sub>Source types: {markdown_text(' · '.join(dataset['categories']))}</sub>"
             data_cell = markdown_text("; ".join(dataset["modalities"]))
             data_cell += f"<br><sub>{markdown_text('; '.join(dataset['formatTypes']))}: {markdown_text(dataset['content'])}</sub>"
             origin_cell = markdown_text("; ".join(dataset["anatomicalOrigins"]))
@@ -234,19 +242,19 @@ def render_dataset_sections(datasets: list[dict]) -> str:
 
 def render_paper_sections(papers: list[dict]) -> str:
     sections: list[str] = []
-    for category in CATEGORIES:
-        base_anchor, title = CATEGORY_SECTIONS[category]
+    for year in sorted({paper["year"] for paper in papers}, reverse=True):
         records = sorted(
-            (paper for paper in papers if category in paper["categories"]),
-            key=lambda paper: (-paper["year"], paper["title"].casefold()),
+            (paper for paper in papers if paper["year"] == year),
+            key=lambda paper: paper["title"].casefold(),
         )
+        paper_label = "paper" if len(records) == 1 else "papers"
         lines = [
-            f'<a id="papers-{base_anchor}"></a>',
+            f'<a id="papers-{year}"></a>',
             "<details>",
-            f"<summary><strong>{title}</strong> ({len(records)} papers)</summary>",
+            f"<summary><strong>{year}</strong> ({len(records)} {paper_label})</summary>",
             "",
-            "| Paper | Year | Venue | Links |",
-            "|:--|:--:|:--|:--|",
+            "| Paper | Setting | Venue | Links |",
+            "|:--|:--|:--|:--|",
         ]
         for paper in records:
             paper_cell = markdown_link(paper["title"], paper["paperUrl"])
@@ -255,8 +263,9 @@ def render_paper_sections(papers: list[dict]) -> str:
             links: list[str] = []
             links.extend(markdown_link("GitHub" if len(paper["codeUrls"]) == 1 else f"GitHub {index}", url)
                          for index, url in enumerate(paper["codeUrls"], start=1))
+            settings = markdown_text(" · ".join(paper["categories"]))
             lines.append(
-                f"| {paper_cell} | <sub>{paper['year']}</sub> | <sub>{markdown_text(paper['venue'])}</sub> | {' · '.join(links) if links else '—'} |"
+                f"| {paper_cell} | <sub>{settings}</sub> | <sub>{markdown_text(paper['venue'])}</sub> | {' · '.join(links) if links else '—'} |"
             )
         lines.extend(("", "</details>"))
         sections.append("\n".join(lines))

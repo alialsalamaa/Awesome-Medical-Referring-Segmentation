@@ -59,6 +59,8 @@ Allowed category values are exactly:
 - `Video / sequences`
 - `Pathology / microscopy`
 
+For datasets, categories describe the native files supplied by the released dataset, not every view that can be derived from them. A volumetric CT or MRI dataset remains `3D` even when processed slice by slice; a video, cine acquisition, or temporal sequence remains `Video / sequences` even when annotated frame by frame; and histopathology, cytology, or microscopy data use `Pathology / microscopy` rather than an additional `2D` tag. Use multiple categories only when the release genuinely supplies independent source types.
+
 Use an empty string for an unavailable optional paper identifier or PDF URL, and an empty array when no paper repository or dataset alias is available. Dataset descriptive fields should state when the official source does not provide a detail rather than guessing it.
 
 Use the canonical venue label without a year; the paper year belongs in the `year` field. Approved aliases are centralized in `scripts/build_catalog.py` (for example, full MICCAI names become `MICCAI`, `arXiv preprint` becomes `arXiv`, and `CVPRW` becomes `CVPR Workshops`). The validator reports the expected label if a manually added paper uses a known variant.

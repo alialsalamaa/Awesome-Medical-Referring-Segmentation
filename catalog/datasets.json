@@ -85,7 +85,6 @@
   {
     "name": "3D-IRCADb-01",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -146,7 +145,6 @@
   {
     "name": "A Multi-site Dataset for Prostate MRI Segmentation",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -202,7 +200,6 @@
   {
     "name": "AbdomenAtlas",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -235,7 +232,6 @@
   {
     "name": "AbdomenCT-1K",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -261,7 +257,6 @@
   {
     "name": "ACDC — Automated Cardiac Diagnosis Challenge",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -292,8 +287,7 @@
   {
     "name": "AeroPath: An Airway Segmentation Benchmark Dataset with Challenging Pathology",
     "categories": [
-      "3D",
-      "Pathology / microscopy"
+      "3D"
     ],
     "formatTypes": [
       "3D"
@@ -373,7 +367,6 @@
   {
     "name": "AMOS22 — Multi-Modality Abdominal Multi-Organ Segmentation Challenge 2022",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -509,7 +502,6 @@
   {
     "name": "ATLAS R2.0 — Anatomical Tracings of Lesions After Stroke",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -538,7 +530,6 @@
   {
     "name": "AutoLaparo",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -622,7 +613,6 @@
   {
     "name": "BBBC038v1 — Kaggle 2018 Data Science Bowl",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -653,7 +643,6 @@
   {
     "name": "BCSS-WSSS",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -679,7 +668,6 @@
   {
     "name": "BHSD: A 3D Multi-class Brain Hemorrhage Segmentation Dataset",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -822,8 +810,7 @@
   {
     "name": "Brain MRI Segmentation — LGG MRI Dataset",
     "categories": [
-      "2D",
-      "3D"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -880,7 +867,6 @@
   {
     "name": "Brain Tumor Segmentation (BraTS) Challenge datasets",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -975,7 +961,6 @@
   {
     "name": "Breast Cancer Semantic Segmentation (BCSS) Dataset",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -1064,8 +1049,7 @@
   {
     "name": "BREAST-LESIONS-USG",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -1254,7 +1238,6 @@
   {
     "name": "Calgary-Campinas-359 (CC-359) Dataset",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -1287,7 +1270,6 @@
   {
     "name": "CAMUS",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -1375,7 +1357,6 @@
   {
     "name": "cardiacUDC_dataset",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -1404,7 +1385,6 @@
   {
     "name": "CC-TUMOR-HETEROGENEITY",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -1459,7 +1439,6 @@
   {
     "name": "CHAOS — Combined CT-MR Healthy Abdominal Organ Segmentation",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -1631,8 +1610,7 @@
   {
     "name": "CholecSeg8k",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D",
@@ -1668,7 +1646,6 @@
   {
     "name": "CMRxMotion 2022",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -1697,7 +1674,6 @@
   {
     "name": "CoCaHis Dataset — Colon Cancer Histopathological Dataset",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -1752,7 +1728,6 @@
   {
     "name": "COLORECTAL-LIVER-METASTASES",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -1841,7 +1816,6 @@
   {
     "name": "CoNIC: Colon Nuclei Identification and Counting Challenge 2022",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -1869,7 +1843,6 @@
   {
     "name": "CoNSeP",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -1954,7 +1927,6 @@
   {
     "name": "COVID-19 CT Segmentation Dataset",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -2097,7 +2069,6 @@
   {
     "name": "CPM-15",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -2125,7 +2096,6 @@
   {
     "name": "CPM-17",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -2155,7 +2125,6 @@
   {
     "name": "CRAG",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -2209,7 +2178,6 @@
   {
     "name": "CryoNuSeg: A Dataset for Nuclei Segmentation of Cryosectioned H&E-Stained Histological Images",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -2237,7 +2205,6 @@
   {
     "name": "CT Lung & Heart & Trachea Segmentation",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -2372,8 +2339,7 @@
   {
     "name": "CVC-ClinicDB",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -2403,8 +2369,7 @@
   {
     "name": "CVC-ColonDB",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -2649,7 +2614,6 @@
   {
     "name": "DigestPath2019",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -2762,7 +2726,6 @@
   {
     "name": "DUKE-BREAST-CANCER-MRI",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -2788,7 +2751,6 @@
   {
     "name": "EchoCP: An Echocardiography Dataset in Contrast Transthoracic Echocardiography for PFO Diagnosis",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -2844,7 +2806,6 @@
   {
     "name": "EchoNet-Dynamic",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -2870,7 +2831,6 @@
   {
     "name": "EgoMed-IEMIS",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -2914,7 +2874,6 @@
   {
     "name": "EMIDEC",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -2944,7 +2903,6 @@
   {
     "name": "Endoscopic Ultrasound Database of the Pancreas",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -2973,7 +2931,6 @@
   {
     "name": "EndoVis 2017 Robotic Instrument Segmentation Sub-Challenge",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -3010,7 +2967,6 @@
   {
     "name": "EndoVis 2018 Robotic Scene Segmentation Sub-Challenge",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -3163,7 +3119,6 @@
   {
     "name": "FedBCa: A Multi-Center MRI Dataset for Bladder Cancer and Federated-Learning Evaluations",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -3384,7 +3339,6 @@
   {
     "name": "Gland Segmentation in Colon Histology Images Challenge (GlaS)",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -3414,8 +3368,7 @@
   {
     "name": "GroundedSurg: A Multi-Procedure Benchmark for Language-Conditioned Surgical Tool Segmentation",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -3612,7 +3565,6 @@
   {
     "name": "HMC-QU Dataset",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -3809,7 +3761,6 @@
   {
     "name": "Ischemic Stroke Lesion Segmentation Challenge Datasets",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -3841,7 +3792,7 @@
   {
     "name": "ISPY1 — I-SPY 1/ACRIN 6657 Breast DCE-MRI Collection",
     "categories": [
-      "2D"
+      "3D"
     ],
     "formatTypes": [
       "Not stated"
@@ -3868,7 +3819,6 @@
   {
     "name": "Janowczyk Nuclei Segmentation Data (official standalone title not stated)",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -3923,7 +3873,6 @@
   {
     "name": "KFGNet thyroid-ultrasound video data (official standalone title not stated)",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -3953,7 +3902,6 @@
   {
     "name": "Kidney Pathology Image Segmentation Challenge 2024",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -3981,7 +3929,6 @@
   {
     "name": "Kidney Tumor Segmentation Challenge datasets",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4046,7 +3993,6 @@
   {
     "name": "Kumar et al. Generalized Nuclear-Segmentation Dataset (official standalone title not stated)",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -4131,7 +4077,6 @@
   {
     "name": "LAScarQS",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4160,7 +4105,6 @@
   {
     "name": "LCTSC",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4188,7 +4132,6 @@
   {
     "name": "Learn2Reg",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4257,7 +4200,6 @@
   {
     "name": "Liver Tumor Segmentation Challenge (LiTS)",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4290,7 +4232,6 @@
   {
     "name": "Lizard",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -4316,7 +4257,6 @@
   {
     "name": "LNDb Challenge Dataset",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4424,7 +4364,7 @@
   {
     "name": "LUNG-PET-CT-DX",
     "categories": [
-      "2D"
+      "3D"
     ],
     "formatTypes": [
       "Not stated"
@@ -4450,7 +4390,6 @@
   {
     "name": "M&Ms-2 Challenge",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4479,8 +4418,7 @@
   {
     "name": "m2caiSeg",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D",
@@ -4508,7 +4446,6 @@
   {
     "name": "MAMA-MIA: A Large-Scale Multi-Center Breast Cancer DCE-MRI Benchmark Dataset with Expert Segmentations",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4597,7 +4534,6 @@
   {
     "name": "Medical Segmentation Decathlon",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4684,7 +4620,6 @@
   {
     "name": "MICCAI FLARE 2022",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4719,7 +4654,6 @@
   {
     "name": "MICCAI Grand Challenge: Prostate MR Image Segmentation 2012 (PROMISE12)",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4776,7 +4710,6 @@
   {
     "name": "MICCAI-MIDOG 2021 Training Data",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -4804,7 +4737,6 @@
   {
     "name": "Micro-Ultrasound Prostate Segmentation Dataset (MicroSeg)",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -4834,7 +4766,6 @@
   {
     "name": "MM-WHS: Multi-Modality Whole Heart Segmentation",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -4922,7 +4853,6 @@
   {
     "name": "MoNuSAC 2020",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -4950,7 +4880,6 @@
   {
     "name": "MoNuSeg",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -5011,7 +4940,6 @@
   {
     "name": "MosMedData",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -5112,7 +5040,6 @@
   {
     "name": "MS-CMRSeg 2019 Challenge Dataset",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -5177,7 +5104,6 @@
   {
     "name": "Multi-Atlas Labeling Beyond the Cranial Vault (BTCV)",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -5226,7 +5152,6 @@
   {
     "name": "Multi-Centre, Multi-Vendor and Multi-Disease Cardiac Image Segmentation Challenge",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -5285,8 +5210,7 @@
   {
     "name": "Myopic Maculopathy Analysis Challenge 2023",
     "categories": [
-      "2D",
-      "Pathology / microscopy"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -5401,7 +5325,6 @@
   {
     "name": "NLSTseg",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -5428,7 +5351,6 @@
   {
     "name": "NSCLC-RADIOGENOMICS",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -5482,7 +5404,6 @@
   {
     "name": "NuCLS",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -5621,8 +5542,7 @@
   {
     "name": "PALM",
     "categories": [
-      "2D",
-      "Pathology / microscopy"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -5650,8 +5570,7 @@
   {
     "name": "PANCREAS-CT",
     "categories": [
-      "3D",
-      "Pathology / microscopy"
+      "3D"
     ],
     "formatTypes": [
       "3D"
@@ -5676,7 +5595,6 @@
   {
     "name": "PanNuke",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -6018,7 +5936,7 @@
   {
     "name": "Prostate158",
     "categories": [
-      "2D"
+      "3D"
     ],
     "formatTypes": [
       "Not stated"
@@ -6184,8 +6102,7 @@
   {
     "name": "Quantification of Uncertainties in Biomedical Image Quantification Challenge 2020",
     "categories": [
-      "2D",
-      "3D"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -6267,8 +6184,7 @@
   {
     "name": "Ref-EndoVis17",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -6295,8 +6211,7 @@
   {
     "name": "Ref-EndoVis18",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -6324,7 +6239,6 @@
   {
     "name": "Rethinking Abdominal Organ Segmentation (RAOS)",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -6530,7 +6444,6 @@
   {
     "name": "Right Ventricle Segmentation Challenge (RVSC)",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -6587,7 +6500,6 @@
   {
     "name": "RINGS Algorithm Dataset",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -6615,8 +6527,7 @@
   {
     "name": "Robust Medical Instrument Segmentation (ROBUST-MIS) Challenge 2019",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -6728,7 +6639,6 @@
   {
     "name": "SegPath",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -6754,7 +6664,6 @@
   {
     "name": "SegRap 2023",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -6785,7 +6694,6 @@
   {
     "name": "SegTHOR",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -6866,7 +6774,6 @@
   {
     "name": "SICAPv2",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -7051,7 +6958,6 @@
   {
     "name": "SUN-SEG",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -7158,7 +7064,6 @@
   {
     "name": "The Universal Lesion Segmentation '23 Challenge — DeepLesion subset",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -7188,7 +7093,7 @@
   {
     "name": "Thoracic Volume and Pleural Effusion Segmentations in Diseased Lungs for Benchmarking Chest CT Processing Pipelines (PleThora)",
     "categories": [
-      "2D"
+      "3D"
     ],
     "formatTypes": [
       "Not stated"
@@ -7242,7 +7147,6 @@
   {
     "name": "Thyroid Ultrasound Cine-clip",
     "categories": [
-      "2D",
       "Video / sequences"
     ],
     "formatTypes": [
@@ -7296,7 +7200,6 @@
   {
     "name": "TNBC Nuclei Segmentation Dataset",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -7351,7 +7254,6 @@
   {
     "name": "TotalSegmentator",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -7551,8 +7453,7 @@
   {
     "name": "Unity Imaging Echocardiography Model Development Dataset",
     "categories": [
-      "2D",
-      "Video / sequences"
+      "2D"
     ],
     "formatTypes": [
       "2D"
@@ -7606,7 +7507,6 @@
   {
     "name": "UPENN-GBM",
     "categories": [
-      "2D",
       "3D",
       "Pathology / microscopy"
     ],
@@ -7668,7 +7568,6 @@
   {
     "name": "UW-Madison GI Tract Image Segmentation",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -7785,7 +7684,6 @@
   {
     "name": "VESSEL12 — VESsel SEgmentation in the Lung 2012",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -7840,7 +7738,6 @@
   {
     "name": "WBC Image Dataset",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -7893,7 +7790,6 @@
   {
     "name": "WORD: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from CT image",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
@@ -7921,7 +7817,6 @@
   {
     "name": "WSSS4LUAD",
     "categories": [
-      "2D",
       "Pathology / microscopy"
     ],
     "formatTypes": [
@@ -7947,7 +7842,6 @@
   {
     "name": "μ-RegPro",
     "categories": [
-      "2D",
       "3D"
     ],
     "formatTypes": [
