@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A navigable survey index of linguistic-prompt medical segmentation papers, datasets, modalities, venues, and official GitHub repositories.">
+  <meta name="theme-color" content="#071a2b">
+  <meta property="og:title" content="Medical Referring Segmentation: A Survey">
+  <meta property="og:description" content="Explore the literature and benchmark datasets through the survey taxonomy.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="og-v2.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Medical Referring Segmentation: A Survey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Medical Referring Segmentation home">
+      <span>Medical Referring Segmentation</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#taxonomy">Taxonomy</a>
+      <a href="#datasets">Datasets</a>
+      <a href="#papers">Papers</a>
+      <a href="#scope">Scope</a>
+      <a href="#citation">Citation</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Survey coverage through 1 September 2026</p>
+        <h1 id="hero-title">
+          <span class="hero-title-main">Medical Referring</span>
+          <span>Segmentation:</span>
+          <span>A Survey</span>
+        </h1>
+        <p class="hero-lead">A structured map of methods that segment medical images using referring expressions, clinical descriptions, reports, and other linguistic prompts.</p>
+        <p class="authors">Ali Alsalama</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#datasets">Explore datasets</a>
+          <a class="button button-secondary" href="#papers">Browse papers</a>
+        </div>
+        <p class="contribute-note"><span aria-hidden="true">&#10024;</span> Is your work missing? Contributions and corrections are welcome.</p>
+      </div>
+
+      <div class="taxonomy-map" aria-label="Survey taxonomy overview">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="map-core"><span>Medical</span><strong>Referring</strong><span>Segmentation</span></div>
+        <button class="map-node node-2d" type="button" data-jump-section="papers" data-category="2D">2D imaging</button>
+        <button class="map-node node-3d" type="button" data-jump-section="papers" data-category="3D">3D volumes</button>
+        <button class="map-node node-video" type="button" data-jump-section="papers" data-category="Video / sequences">Video &amp;<br>sequences</button>
+        <button class="map-node node-path" type="button" data-jump-section="papers" data-category="Pathology / microscopy">Pathology &amp;<br>microscopy</button>
+      </div>
+    </section>
+
+
+    <section class="stats" aria-label="Collection statistics">
+      <div class="stat"><strong id="paper-stat">&mdash;</strong><span>papers indexed</span></div>
+      <div class="stat"><strong id="dataset-stat">&mdash;</strong><span>datasets mapped</span></div>
+      <div class="stat"><strong id="code-stat">&mdash;</strong><span>papers with GitHub repositories</span></div>
+      <div class="stat"><strong id="venue-stat">&mdash;</strong><span>publication venues</span></div>
+    </section>
+
+    <section class="section taxonomy-section" id="taxonomy" aria-labelledby="taxonomy-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Survey structure</p>
+          <h2 id="taxonomy-title">Explore by imaging setting</h2>
+        </div>
+        <p>The taxonomy connects each imaging setting to its relevant datasets and papers. A study can appear in more than one setting when its evaluation crosses modalities.</p>
+      </div>
+      <div class="taxonomy-cards">
+        <article class="taxonomy-card accent-blue">
+          <span class="taxonomy-index">01</span>
+          <h3>2D medical imaging</h3>
+          <p>e.g., X-ray, ultrasound, fundus, dermoscopy, endoscopy, and 2D slices.</p>
+          <div class="taxonomy-actions">
+            <button type="button" data-jump-section="datasets" data-category="2D">Datasets</button>
+            <button type="button" data-jump-section="papers" data-category="2D">Papers</button>
+          </div>
+        </article>
+        <article class="taxonomy-card accent-violet">
+          <span class="taxonomy-index">02</span>
+          <h3>3D volumetric imaging</h3>
+          <p>e.g., CT, MRI, PET, and volumetric ultrasound benchmarks and tasks.</p>
+          <div class="taxonomy-actions">
+            <button type="button" data-jump-section="datasets" data-category="3D">Datasets</button>
+            <button type="button" data-jump-section="papers" data-category="3D">Papers</button>
+          </div>
+        </article>
+        <article class="taxonomy-card accent-cyan">
+          <span class="taxonomy-index">03</span>
+          <h3>Video and sequences</h3>
+          <p>e.g., surgical video, endoscopy sequences, and temporally linked frames.</p>
+          <div class="taxonomy-actions">
+            <button type="button" data-jump-section="datasets" data-category="Video / sequences">Datasets</button>
+            <button type="button" data-jump-section="papers" data-category="Video / sequences">Papers</button>
+          </div>
+        </article>
+        <article class="taxonomy-card accent-rose">
+          <span class="taxonomy-index">04</span>
+          <h3>Pathology and microscopy</h3>
+          <p>e.g., histopathology, cytology, and microscopy images across scales.</p>
+          <div class="taxonomy-actions">
+            <button type="button" data-jump-section="datasets" data-category="Pathology / microscopy">Datasets</button>
+            <button type="button" data-jump-section="papers" data-category="Pathology / microscopy">Papers</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section directory-section" id="datasets" aria-labelledby="datasets-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Benchmark directory</p>
+          <h2 id="datasets-title">Datasets</h2>
+        </div>
+          <p>Find benchmark collections by imaging setting, modality, anatomy, annotation, access route, or known alias. Links point to the reviewed official source.</p>
+      </div>
+
+      <div class="directory-shell">
+        <div class="category-tabs" id="dataset-category-tabs" aria-label="Filter datasets by category">
+          <button type="button" class="active" data-value="all" aria-pressed="true">All</button>
+          <button type="button" data-value="2D" aria-pressed="false">2D</button>
+          <button type="button" data-value="3D" aria-pressed="false">3D</button>
+          <button type="button" data-value="Video / sequences" aria-pressed="false">Video</button>
+          <button type="button" data-value="Pathology / microscopy" aria-pressed="false">Pathology</button>
+        </div>
+        <div class="filter-panel">
+          <label class="search-field wide-field">
+            <span>Search datasets</span>
+            <input id="dataset-search" type="search" placeholder="Name, alias, anatomy, or annotation" autocomplete="off">
+          </label>
+          <label>
+            <span>Modality</span>
+            <select id="dataset-modality"><option value="all">All modalities</option></select>
+          </label>
+          <label>
+            <span>Anatomy</span>
+            <select id="dataset-anatomy"><option value="all">All anatomical origins</option></select>
+          </label>
+          <label>
+            <span>Access</span>
+            <select id="dataset-access"><option value="all">All access routes</option></select>
+          </label>
+          <label>
+            <span>Sort by</span>
+            <select id="dataset-sort">
+              <option value="name-asc">Name A&ndash;Z</option>
+              <option value="modality-asc">Modality</option>
+              <option value="access-asc">Access route</option>
+            </select>
+          </label>
+        </div>
+        <div class="directory-meta">
+          <p id="dataset-summary" aria-live="polite"></p>
+          <button class="text-button" id="dataset-clear" type="button">Clear filters</button>
+        </div>
+        <div class="dataset-grid" id="dataset-grid"></div>
+        <div class="load-more-wrap"><button class="button button-secondary" id="dataset-more" type="button">Show more datasets</button></div>
+      </div>
+    </section>
+
+    <section class="section directory-section paper-section" id="papers" aria-labelledby="papers-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Literature directory</p>
+          <h2 id="papers-title">Papers</h2>
+        </div>
+        <p>Browse the full in-scope literature, including studies evaluated on private or institutional cohorts. Paper links and official or author-maintained GitHub repositories are included when available.</p>
+      </div>
+
+      <div class="directory-shell">
+        <div class="category-tabs" id="paper-category-tabs" aria-label="Filter papers by category">
+          <button type="button" class="active" data-value="all" aria-pressed="true">All</button>
+          <button type="button" data-value="2D" aria-pressed="false">2D</button>
+          <button type="button" data-value="3D" aria-pressed="false">3D</button>
+          <button type="button" data-value="Video / sequences" aria-pressed="false">Video</button>
+          <button type="button" data-value="Pathology / microscopy" aria-pressed="false">Pathology</button>
+        </div>
+        <div class="filter-panel paper-filters">
+          <label class="search-field wide-field">
+            <span>Search papers</span>
+            <input id="paper-search" type="search" placeholder="Title, author, identifier, or venue" autocomplete="off">
+          </label>
+          <label>
+            <span>Year</span>
+            <select id="paper-year"><option value="all">All years</option></select>
+          </label>
+          <label>
+            <span>GitHub repository</span>
+            <select id="paper-code">
+              <option value="all">Any availability</option>
+              <option value="with-code">Repository available</option>
+              <option value="without-code">No repository listed</option>
+            </select>
+          </label>
+          <label>
+            <span>Sort by</span>
+            <select id="paper-sort">
+              <option value="year-desc">Newest first</option>
+              <option value="year-asc">Oldest first</option>
+              <option value="title-asc">Title A&ndash;Z</option>
+            </select>
+          </label>
+        </div>
+        <div class="directory-meta">
+          <p id="paper-summary" aria-live="polite"></p>
+          <button class="text-button" id="paper-clear" type="button">Clear filters</button>
+        </div>
+        <div class="paper-grid" id="paper-grid"></div>
+        <div class="load-more-wrap"><button class="button button-secondary" id="paper-more" type="button">Show more papers</button></div>
+      </div>
+    </section>
+
+    <section class="section scope-section" id="scope" aria-labelledby="scope-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Repository scope</p>
+          <h2 id="scope-title">What this index contains</h2>
+        </div>
+        <p>This companion website prioritizes discovery and traceability. Quantitative benchmark values and detailed paper analysis remain in the survey manuscript and appendix.</p>
+      </div>
+      <div class="scope-grid">
+        <article><span aria-hidden="true">&#9638;</span><h3>Taxonomy-first navigation</h3><p>Move directly from an imaging setting to its papers or datasets.</p></article>
+        <article><span aria-hidden="true">&#9672;</span><h3>Dataset traceability</h3><p>Canonical dataset names, modalities, targets, access routes, and source links.</p></article>
+        <article><span aria-hidden="true">&#8599;</span><h3>Open research links</h3><p>Paper pages and verified GitHub repositories when available.</p></article>
+      </div>
+      <div class="contribution-banner">
+        <div><p class="eyebrow">Keep it current</p><h3>Add a paper, dataset, or correction</h3><p>Follow the catalog contribution guide and include a bibliographic link plus the official repository or dataset source when available.</p></div>
+        <a class="button button-primary" href="CONTRIBUTING.md">Contribution guide</a>
+      </div>
+    </section>
+
+    <section class="section citation-section" id="citation" aria-labelledby="citation-title">
+      <div>
+        <p class="eyebrow">Reference</p>
+        <h2 id="citation-title">Cite the survey</h2>
+      </div>
+      <pre><code>@article{alsalama_medical_referring_segmentation,
+  title  = {Medical Referring Segmentation: A Survey},
+  author = {Alsalama, Ali},
+  note   = {Survey manuscript}
+}</code></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">MRS</span><span>Medical Referring Segmentation</span></a>
+    <p>Turning clinical language into precise anatomical understanding.</p>
+    <a id="back-to-top" href="#top">Back to top <span aria-hidden="true">&#8593;</span></a>
+  </footer>
+
+  <script src="data/papers.js"></script>
+  <script src="data/datasets.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
