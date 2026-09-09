@@ -216,10 +216,7 @@ def render_dataset_sections(datasets: list[dict]) -> str:
         for dataset in records:
             dataset_cell = markdown_link(dataset["name"], dataset["url"])
             dataset_cell += f"<br><sub>{markdown_text(dataset['version'])}</sub>"
-            if len(dataset["categories"]) > 1:
-                dataset_cell += f"<br><sub>Source types: {markdown_text(' · '.join(dataset['categories']))}</sub>"
             data_cell = markdown_text("; ".join(dataset["modalities"]))
-            data_cell += f"<br><sub>{markdown_text('; '.join(dataset['formatTypes']))}: {markdown_text(dataset['content'])}</sub>"
             origin_cell = markdown_text("; ".join(dataset["anatomicalOrigins"]))
             origin_cell += f"<br><sub>{markdown_text(dataset['origin'])}</sub>"
             lines.append(
