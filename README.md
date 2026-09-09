@@ -9,6 +9,10 @@
 <p align="center"><strong>Survey coverage through 1 September 2026</strong></p>
 
 <p align="center">
+  <a href="https://alialsalamaa.github.io/Awesome-Medical-Referring-Segmentation/"><img src="https://img.shields.io/badge/Explore_the_Interactive_Website-087F83?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Explore the interactive website"></a>
+</p>
+
+<p align="center">
   <img src="og-v2.png" alt="Medical referring segmentation across 2D imaging, 3D volumetric imaging, video and sequences, and pathology and microscopy" width="100%">
 </p>
 
@@ -25,7 +29,6 @@
   - [Video and sequences](#papers-video-and-sequences)
   - [Pathology and microscopy](#papers-pathology-and-microscopy)
 - [Contributing](#contributing)
-- [Website](#website)
 - [Citation](#citation)
 
 ## Dataset taxonomy
@@ -822,10 +825,6 @@ The canonical records live in [`catalog/papers.json`](catalog/papers.json) and [
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the required formats and the one-command rebuild and validation workflow. All additions and corrections are reviewed before merging.
 
-## Website
-
-- **GitHub Pages:** https://alialsalamaa.github.io/Awesome-Medical-Referring-Segmentation/
-
 ## Citation
 
 ```bibtex
@@ -843,3 +842,5 @@ The website code and original catalog materials are available under the [MIT Lic
 ---
 
 <p align="center">Turning clinical language into precise anatomical understanding.</p>
+
+<p align="center"><strong>If this index supports your research, consider starring the repository.</strong></p>
