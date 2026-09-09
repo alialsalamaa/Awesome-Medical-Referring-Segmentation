@@ -250,14 +250,13 @@ def render_paper_sections(papers: list[dict]) -> str:
         ]
         for paper in records:
             paper_cell = markdown_link(paper["title"], paper["paperUrl"])
-            paper_cell += f"<br><sub>{markdown_text('; '.join(paper['authors']))}</sub>"
             if paper["identifier"]:
                 paper_cell += f"<br><sub>{markdown_text(paper['identifier'])}</sub>"
             links: list[str] = []
             links.extend(markdown_link("GitHub" if len(paper["codeUrls"]) == 1 else f"GitHub {index}", url)
                          for index, url in enumerate(paper["codeUrls"], start=1))
             lines.append(
-                f"| {paper_cell} | {paper['year']} | {markdown_text(paper['venue'])} | {' · '.join(links) if links else '—'} |"
+                f"| {paper_cell} | <sub>{paper['year']}</sub> | <sub>{markdown_text(paper['venue'])}</sub> | {' · '.join(links) if links else '—'} |"
             )
         lines.extend(("", "</details>"))
         sections.append("\n".join(lines))
