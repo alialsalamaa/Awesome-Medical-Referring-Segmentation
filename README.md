@@ -9,7 +9,7 @@
 <p align="center"><strong>Survey coverage through 1 September 2026</strong></p>
 
 <p align="center">
-  <a href="https://alialsalamaa.github.io/Awesome-Medical-Referring-Segmentation/"><img src="assets/website-button.svg" alt="Explore the interactive website" width="390"></a>
+  <a href="https://alialsalamaa.github.io/Awesome-Medical-Referring-Segmentation/"><img src="https://img.shields.io/badge/Explore_the_Interactive_Website-087F83?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Explore the interactive website"></a>
 </p>
 
 <p align="center">
